@@ -2,7 +2,7 @@ import cv2
 import numpy
 import matplotlib.pyplot as plt
 
-img = cv2.imread('img.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('img.jpg', cv2.IMREAD_UNCHANGED)
 # this block just show me img in gray colour
 cv2.imshow('image', img)
 cv2.waitKey(0)
